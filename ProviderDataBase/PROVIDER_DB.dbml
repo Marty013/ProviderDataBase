@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PROVIDER_DB" Class="PROVIDER_DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DEADLINE_323_NB\SQLEXPRESS;Initial Catalog=PROVIDER_DB;Integrated Security=True" SettingsObjectName="TicketReservationSystem.Properties.Settings" SettingsPropertyName="PROVIDER_DBConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.agreements" Member="agreements">
+    <Type Name="agreements">
+      <Column Name="agreement_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_user" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="balance" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="login" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="id_coverage_area" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="num_apartment" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="date_connection" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="id_co_worker" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="id_rate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="agreements_transactions" Member="transactions" ThisKey="agreement_id" OtherKey="id_agreement" Type="transactions" />
+      <Association Name="users_agreements" Member="users" ThisKey="id_user" OtherKey="user_id" Type="users" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="co_workers_agreements" Member="co_workers" ThisKey="id_co_worker" OtherKey="co_worker_id" Type="co_workers" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="coverage_areas_agreements" Member="coverage_areas" ThisKey="id_coverage_area" OtherKey="coverage_area_id" Type="coverage_areas" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="rates_agreements" Member="rates" ThisKey="id_rate" OtherKey="rate_id" Type="rates" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.users" Member="users">
+    <Type Name="users">
+      <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="user_surname" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="user_name" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="user_patronymic" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="user_passport_data" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="user_address" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="user_contact_phone_num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="users_agreements" Member="agreements" ThisKey="user_id" OtherKey="id_user" Type="agreements" />
+    </Type>
+  </Table>
+  <Table Name="dbo.co_workers" Member="co_workers">
+    <Type Name="co_workers">
+      <Column Name="co_worker_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="co_worker_surname" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="co_worker_name" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="co_worker_patronymic" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="co_worker_passport_data" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="co_worker_address" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="co_worker_contact_phone_num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="post" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="salary" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="co_workers_agreements" Member="agreements" ThisKey="co_worker_id" OtherKey="id_co_worker" Type="agreements" />
+    </Type>
+  </Table>
+  <Table Name="dbo.coverage_areas" Member="coverage_areas">
+    <Type Name="coverage_areas">
+      <Column Name="coverage_area_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="district" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="street" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="num_house" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="coverage_areas_agreements" Member="agreements" ThisKey="coverage_area_id" OtherKey="id_coverage_area" Type="agreements" />
+    </Type>
+  </Table>
+  <Table Name="dbo.rates" Member="rates">
+    <Type Name="rates">
+      <Column Name="rate_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name_rate" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="validity" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="cost" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="note" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Association Name="rates_agreements" Member="agreements" ThisKey="rate_id" OtherKey="id_rate" Type="agreements" />
+    </Type>
+  </Table>
+  <Table Name="dbo.transactions" Member="transactions">
+    <Type Name="transactions">
+      <Column Name="transaction_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_agreement" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="operation_type" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="transaction_amount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="transaction_date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="agreements_transactions" Member="agreements" ThisKey="id_agreement" OtherKey="agreement_id" Type="agreements" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,55 @@
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\bin\Debug\TicketReservationSystem.exe.config
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\bin\Debug\TicketReservationSystem.exe
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\bin\Debug\TicketReservationSystem.pdb
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\TicketReservationSystem.Form1.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\TicketReservationSystem.Form6.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\TicketReservationSystem.Form4.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\TicketReservationSystem.Form5.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\TicketReservationSystem.Form2.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\TicketReservationSystem.Form3.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\TicketReservationSystem.Properties.Resources.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\ProviderDataBase.csproj.GenerateResource.Cache
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\TicketReservationSystem.exe
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\TicketReservationSystem\obj\Debug\TicketReservationSystem.pdb
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\bin\Debug\TicketReservationSystem.exe.config
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\TicketReservationSystem.exe
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\TicketReservationSystem.pdb
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\bin\Debug\TicketReservationSystem.exe
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\bin\Debug\TicketReservationSystem.pdb
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\ProviderDataBase.csprojResolveAssemblyReference.cache
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\TicketReservationSystem.Form1.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\TicketReservationSystem.Form6.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\TicketReservationSystem.Form4.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\TicketReservationSystem.Form5.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\TicketReservationSystem.Form2.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\TicketReservationSystem.Form3.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\TicketReservationSystem.Properties.Resources.resources
+D:\Users\DeadLine_323\Desktop\TicketReservationSystem\ProviderDataBase\obj\Debug\ProviderDataBase.csproj.GenerateResource.Cache
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\bin\Debug\TicketReservationSystem.exe.config
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.exe
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.pdb
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\bin\Debug\TicketReservationSystem.exe
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\bin\Debug\TicketReservationSystem.pdb
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\ProviderDataBase.csprojResolveAssemblyReference.cache
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form1.resources
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form6.resources
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form4.resources
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form5.resources
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form2.resources
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form3.resources
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Properties.Resources.resources
+D:\Users\DeadLine_323\Desktop\ProviderDataBase\ProviderDataBase\obj\Debug\ProviderDataBase.csproj.GenerateResource.Cache
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\bin\Debug\TicketReservationSystem.exe.config
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.exe
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.pdb
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\bin\Debug\TicketReservationSystem.exe
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\bin\Debug\TicketReservationSystem.pdb
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\ProviderDataBase.csprojResolveAssemblyReference.cache
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form1.resources
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form6.resources
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form4.resources
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form5.resources
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form2.resources
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Form3.resources
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\TicketReservationSystem.Properties.Resources.resources
+C:\Users\DeadLine_323\YandexDisk\[ 7 семестр ]\Введение в разработку\Семестровая\Моя семестровая\ProviderDataBase\ProviderDataBase\obj\Debug\ProviderDataBase.csproj.GenerateResource.Cache
